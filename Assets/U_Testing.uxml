@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="justify-content: flex-end;">
+        <ui:VisualElement name="Container" style="height: 363px; width: 599px; flex-basis: 20%; align-items: center; justify-content: space-around; padding-left: 15%; padding-right: 15%; background-color: rgba(184, 126, 188, 255); -unity-slice-top: 0; border-left-color: rgba(31, 0, 48, 255); border-right-color: rgba(31, 0, 48, 255); border-top-color: rgba(31, 0, 48, 255); border-bottom-color: rgba(31, 0, 48, 255); border-right-width: 5px; border-left-width: 5px; border-top-width: 3px; border-bottom-width: 3px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="flex-direction: row-reverse; flex-wrap: nowrap; height: 16px; width: 93px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
