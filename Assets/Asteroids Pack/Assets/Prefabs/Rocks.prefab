@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1081851605174888413}
   - component: {fileID: 199538703681447954}
   - component: {fileID: 3452660415822154160}
+  - component: {fileID: 9035369561981898674}
   m_Layer: 0
   m_Name: Rocks
   m_TagString: Rocks
@@ -44,11 +45,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 1081851605174888412}
   m_Material: {fileID: 13400000, guid: 5221a2abe1b6a0648a5b433675811117, type: 2}
   m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.40445533
-  m_Height: 2.6593487
+  m_Enabled: 0
+  m_Radius: 0.26901037
+  m_Height: 0.8089107
   m_Direction: 1
-  m_Center: {x: 0.52651787, y: 1.3842542, z: -1.6580229}
+  m_Center: {x: 0.49105442, y: 0.40491003, z: -1.7580045}
 --- !u!114 &3452660415822154160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,6 +63,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreManager: {fileID: 0}
+--- !u!136 &9035369561981898674
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081851605174888412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.19506194
+  m_Height: 0.5230387
+  m_Direction: 1
+  m_Center: {x: 0.35183173, y: 2.6268585, z: 0}
 --- !u!1001 &1081851606879045191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -145,10 +160,10 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: ce777fcf026eee944aa4db3b553ffd25, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.82955235
-  m_Height: 3.734064
+  m_Radius: 0.84768033
+  m_Height: 3.698898
   m_Direction: 1
-  m_Center: {x: 0.041133672, y: 0.324659, z: -0.13347392}
+  m_Center: {x: 0.031064494, y: 0.34224367, z: 0.059981454}
 --- !u!1001 &1081851606933790729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,10 +241,10 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: ce777fcf026eee944aa4db3b553ffd25, type: 2}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 1.005515
-  m_Height: 3.7390723
+  m_Radius: 0.70970297
+  m_Height: 3.6701293
   m_Direction: 1
-  m_Center: {x: 0.02441448, y: 0.3098208, z: -0.041060537}
+  m_Center: {x: 0.02517102, y: 0.27534878, z: -0.041060545}
 --- !u!4 &1081851606934204035 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75,

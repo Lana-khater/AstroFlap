@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScoreManagerScript : MonoBehaviour //singleton accessable:
+public class ScoreManagerScript : MonoBehaviour //singleton accessable: //firgure out how to connect this to addressables
 {
     public int playerScore;
   [SerializeField] public Text scoreText;
@@ -24,12 +24,9 @@ public class ScoreManagerScript : MonoBehaviour //singleton accessable:
         //instance.UpdateScoreText();
         //playerScore = playerScore + scoreToAdd;
         scoreText.text = playerScore.ToString();
-        Debug.Log("Score updated to: " + playerScore.ToString());
+        Debug.Log("Score updated to: " + playerScore.ToString()); //Wrong Fix 
     }
-
-    //  public int score = 0;
    
-
    void UpdateScoreText() //For UI
     {
         if (scoreText != null)

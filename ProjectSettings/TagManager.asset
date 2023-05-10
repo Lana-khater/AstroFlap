@@ -9,6 +9,7 @@ TagManager:
   - Rocket
   - ScoreManager
   - immak?
+  - gameOverUI1
   layers:
   - Default
   - TransparentFX

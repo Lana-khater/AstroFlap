@@ -8,7 +8,7 @@ public class Scores : MonoBehaviour
     public ScoreManagerScript scoreManager;
     void Start()
     {
-        GameObject scoreManagerObj = GameObject.FindWithTag("ScoreManager");
+        GameObject scoreManagerObj = GameObject.FindWithTag("ScoreManager"); //locate tag (new) / checkName
         scoreManager = scoreManagerObj.GetComponent<ScoreManagerScript>();
         // score = 0;
     }

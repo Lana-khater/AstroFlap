@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Vast Outer Space/EXAMPLE/MyOriginal.unity
     guid: 220705f0c6638a447ac86ce126a82108
+  - enabled: 0
+    path: Assets/EndScreen.unity
+    guid: e57198b4e80a7ae48adb3e7e29c2a092
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d5c70ca5c5dae2240b2a010f7de3e96f,
       type: 2}

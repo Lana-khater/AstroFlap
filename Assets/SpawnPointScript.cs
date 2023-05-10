@@ -7,7 +7,6 @@ public class SpawnPointScript : MonoBehaviour
     public ObstacleSpawnerScript obstacleSpawner;
     public Vector3 spawnPosition;
     public Quaternion spawnRotation;
-    // Start is called before the first frame update
     void Start()
     {
         // Vector3 spawnPosition = transform.position;

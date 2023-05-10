@@ -4,20 +4,31 @@ using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.SceneManagement;
+
 
 public class MainMenuScript : MonoBehaviour
 {
-    public GameObject gameOverScreen;
-   // public string MyOriginal = "MyOriginal";
-    public void restartGame()
+    [SerializeField] private GameObject gameOverUI1;
+
+    void Start()
     {
-        Debug.Log("Restarting game...");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       gameOverUI1.SetActive(false);
+
     }
+    // private void OnCollisionEnter(Collision collision) 
+    //{
+    //  Debug.Log("Collision detected with " + collision.gameObject.name);
+    //if (collision.gameObject.tag == "Rocks")
+    //{
+
+    //  gameOverUI1.SetActive(true);
+    //SceneManager.LoadSceneAsync("EndScreen");
+
+    //  }
+   public void restartGame()
+        {
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("StartScreen");
+       }
     
-    public void gameOver()
-    {
-        gameOverScreen.SetActive(true);
-    }
 }
